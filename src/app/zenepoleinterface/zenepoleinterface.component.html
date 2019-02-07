@@ -1,0 +1,198 @@
+<!-- main -->
+<div id="main">
+    <!-- container -->
+    <div class="container-main" fxFlex="1 0 0" fxFlex="column" class="overflow-x">
+        <!-- left-navbar -->
+        <div class="left-navbar" fxLayout="column" fxFlex="1 0 auto" >
+            <div >
+                <!-- top titlebar -->
+                <div>
+                    <li style="background: #fafafa!important;height: 64px;"><a fxLayoutAlign="start center">
+                            <img src="../assets/inner_logo.png" height="45px" width="45px" alt="no image" class="image">
+                            <span class="title">ZENOPLE</span>
+                            <i class="material-icons"  style="color:rgba(0,0,0,.7)!important"id="iconic">
+                                reorder
+                            </i>
+                        </a>
+                    </li>
+
+                </div>
+                <!-- top titlebar -->
+                <!-- charles image part -->
+                <div fxLayout="column" fxLayoutAlign="start center" class="navfirst">
+                    <div class="username">LAXMAN KHADKA</div>
+                    <div class="emailone">Office Staff</div>
+                    <div class="emailone">ABP</div>
+                    <div class="email">Abbey Placements</div>
+                    <div class="imagelogo" fxLayoutAlign="center center">
+
+                    </div>
+                </div>
+                <!-- charles image part -->
+                <!-- applications -->
+                <div class="menues" fxLayoutAlgn="center center" >
+                    <div style="background: #fafafa!important" fxFill="100%">
+                        <img src="../assets/imagess.jpg" height="60px" width="60px" class="imagenav" >
+                        <h1 class="menuone" style="text-transform: uppercase"> </h1>
+                        <div class="navbar" fxLayout="column">
+                            <ul>
+                                <li> <a class="dash" fxLayoutAlign="start center">
+                                        <mat-icon> dashboard</mat-icon>
+                                        <span class="iconname">Dashboard</span>
+                                        <mat-icon>arrow_forward_ios</mat-icon>
+                                    </a></li>
+                                <li class="hoverone"> <a fxLayoutAlign="start center">
+                                        <mat-icon>calendar_today</mat-icon>
+                                        <span class="iconname">Applications</span>
+
+                                    </a></li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+
+
+                    </div>
+                </div>
+                <!-- applications -->
+            </div>
+        </div>
+        <!-- left nav -->
+        <!-- main content -->
+        <div class="main-content" fxLayout="column" fxFlex="1 0 auto" style="background: white;">
+
+            <div class="top-content" fxLayout="column" fxFlex="1 1 auto" >
+                <div>
+                    <!-- toolbar begins -->
+                    <mat-toolbar style="background:white" class="toolbarmanage" > 
+                        <div fxFlex="1 0 auto" fxLayout="row" fxLayoutAlign="start center">
+                            <span class="headericon">
+                                <i class="material-icons">check_box_outlined</i>
+                            </span>
+
+
+                        </div>
+                        <div fxFlex="0 1 auto" fxLayout="row" fxLayoutAlign="start center">
+
+                            <i class="material-icons" style="width:70px;color:rgba(0, 0, 0, 0.54)" fxLayoutAlign="center" >
+                            fullscreen
+                            </i>
+                            <div class="toolbar-separator">
+                            </div>
+                            <span class="marginmanage"><button style="border: 1px solid red;height:40px; background-color: white;">RTS</button></span>
+                            <div class="toolbar-separator">
+                            </div>
+
+                            <button mat-icon-button [matMenuTriggerFor]="menu">
+                                <img src="../assets/imagess.jpg" height="30px" width="30px" class="border">
+                               <span style="font-display: 'Muli'; padding-left:5px;"> LAXMAN KHADKA</span>
+                            </button>
+                            <mat-menu #menu="matMenu" fxFlex>
+
+                                <button mat-menu-item>
+                                    <span class="buttonmanage"><i class="material-icons">
+                                            perm_identity
+                                        </i></span>
+                                    <span class>My Profile</span>
+                                </button>
+                                <button mat-menu-item>
+                                    <span class="buttonmanage"> <i class="material-icons">
+                                            input
+                                        </i></span>
+                                    <span>Inbox</span>
+                                </button>
+                                <button mat-menu-item>
+                                    <span class="buttonmanage"> <i class="material-icons">
+                                            delete
+                                        </i></span>
+                                    <span>Logout</span>
+                                </button>
+
+
+                            </mat-menu>
+                            <span class="rightpart">
+                                <mat-icon>arrow_forward_ios</mat-icon>
+                            </span>
+                            <div class="toolbar-separator">
+                            </div>
+
+                            <button mat-icon-button [matMenuTriggerFor]="menuone" fxLayoutAlign="start center" class="right">
+                                <img src="../assets/usa.jpg" height="20px" width="20px" style="margin-right:5px;">
+                                <span style="font-family: 'Muli'">EN</span>
+                            </button>
+                            <mat-menu #menuone="matMenu">
+                                <button mat-menu-item>
+                                    <span>English</span>
+                                </button>
+                                <button mat-menu-item>
+                                    <span>Rusian</span>
+                                </button>
+                            </mat-menu>
+
+
+                        </div>
+                    </mat-toolbar>
+                    <!-- toolbar ends -->
+                    <mat-divider></mat-divider>
+                </div>
+
+                <div>
+                    <!-- row contain -->
+                    <div fxFlex="1 1 auto" style="background:#f5f5f5!important;">
+                        <div style="background: whitesmoke" class="header" fxLayoutAlign="space-betweeen" fxLayout="column" style="padding:10px;">
+                            <div fxLayout="row">
+                                <div fxFlex="1 0 auto" fxLayoutAlign="start center" class="materialiconbar">
+                                    <i class="material-icons" id="iconic">
+                                        reorder
+                                    </i>
+                                </div>
+                                <div fxFlex="0 1 auto" fxLayoutAlign="start center" fxLayoutGap="10px">
+                                    <mat-form-field class="example-full-width">
+                                        <input matInput placeholder="Search">
+                                    </mat-form-field>
+                                    <label for="search" name="serach" value="serach"> Search</label>
+                                    <mat-slide-toggle></mat-slide-toggle>
+                                    <span class="managemargin"><i class="material-icons">grade</i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="managepadding" >
+                            <app-leadbar></app-leadbar>
+                        </div>
+                        
+                        <div class="managepaddingtwo">
+                            
+                            <app-data-table></app-data-table>
+
+                        </div>
+
+                    </div>
+                    <!-- row contain ends -->
+                    <!-- column started -->
+
+
+                    <!-- column ends -->
+                </div>
+
+            </div>
+
+
+            <!-- footer -->
+               <!-- footer -->
+          <div class="footer" fxLayout="column" fxFlex="0 0 auto">
+                <div fxLayout="row" fxLayoutAlign="space-betweeen"> 
+                        <span class="footercontent">Aqore © 2019</span>
+                </div>
+            </div>
+            <!-- footer -->
+            <!-- footer -->
+            <!-- main content -->
+        </div>
+        <!-- maincontent -->
+        <!-- leftnav -->
+    </div>
+    <!-- container -->
+</div>
+<!-- main -->

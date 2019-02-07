@@ -1,0 +1,118 @@
+#main{
+    height:100%;
+    width:100%;
+}
+.container{
+    height:100%;
+    widows: 100%;
+    background:white;
+}
+ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    place-content:center center;
+}
+li{
+    max-width:20%;
+    width:20%;
+    min-width:20%;
+    height:100px;
+    place-content:center center;
+    position:relative;
+}
+
+ ul > li:not(:last-child)::before{
+    content:'';
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 45px solid #5d5f6c;
+    position: absolute;
+    right: -44px;
+    z-index: 1;
+}
+li:nth-child(1):before{
+    border-left-color: #f44336!important;
+}
+li:nth-child(2):before{
+    border-left-color: #ffc107 !important;;
+}
+li:nth-child(3):before{
+    border-left-color: #4caf50  !important;;
+}
+li:nth-child(4):before{
+    border-left-color: #362e8e   !important;;
+}
+// li:nth-last-child():after{
+//     content: '';
+   
+// }
+  .content{
+      width:150px;
+      place-content:center center;
+  }
+  .managebig{
+  font-size: 2.5em;
+  font-family:'Muli', sans-serif;
+  margin-left:30px;
+  color:white;
+  justify-content:center;
+  width:100px;
+  }
+  .managesmall{
+    font-size: 1.5em;
+    font-family:'Muli', sans-serif;
+    margin-left:30px;
+    color:white;
+    justify-content:center;
+    
+  }
+  .managebigyellow{
+    font-size: 2.5em;
+    font-family:'Muli', sans-serif;
+    margin-left:115px;
+    color:white;
+    justify-content:center;
+    width:100px;
+  }
+  .managebiggreen{
+    font-size: 2.5em;
+    font-family:'Muli', sans-serif;
+    margin-left:115px;
+    color:white;
+    justify-content:center;
+    width:100px;
+  }
+  .managebigpurple{
+    font-size: 2.5em;
+    font-family:'Muli', sans-serif;
+    margin-left:110px;
+    color:white;
+    justify-content:center;
+    width:100px;
+  }
+ 
+.management{
+    width:auto;
+    padding:10px;
+}
+.manage{
+    height:63px;
+}
+h1{
+    font-family: 'Muli';
+    color:black;
+    padding-top:15px;
+    font-size:16px;
+    margin-left:20px;
+    margin-top:10px;
+    font-weight: bolder; 
+}
+.text{
+    color:white;
+    border:1px solid lightcyan;
+}
+mat-divider{
+    margin:10px;
+}

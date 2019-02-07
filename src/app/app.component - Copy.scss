@@ -1,0 +1,235 @@
+html{
+    font-family: Muli,'Helvetica Neue',Arial,sans-serif;
+  
+}
+.top{
+    height:100%;
+    width:100%;
+}
+#iconic{
+    color:rgba(255,255,255,.5);
+    cursor:pointer;
+}
+.image{
+   margin-right:10px;
+}
+
+.title{
+    color:rgba(255,255,255,.5);
+    font-family: 'Muli', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: .4px;
+    flex: 1 1 auto;
+}
+.navfirst{
+    margin-top: 50px;
+    margin-bottom:20px;
+
+}
+.username{
+    color:white;
+    font-family: 'Muli', sans-serif;
+    font-size: 15px;
+    margin-bottom:8px;
+}
+.email{
+    color:rgba(255,255,255,.5);
+    font-family: 'Muli', sans-serif;
+    font-size: 15px;
+    margin-bottom:8px; 
+}
+.imagenav{
+    position: relative;
+    top: 60px;
+    border-radius: 50%;
+    padding: 8px;
+    box-shadow:0px 0px 15px;
+}
+.menues{
+    padding-bottom:20px;
+    width:100%;
+    
+    color:rgba(255,255,255,.5);
+}
+a{
+    color:rgba(255,255,255,.5);
+    font-family: 'Muli', sans-serif;
+}
+.menuone{
+    padding-left:10px;
+    padding-top:30px;
+    margin-top:30px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  li a {
+    display: block;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-family: 'Muli', sans-serif;
+    cursor: pointer;
+    color:white;
+  }
+  
+  
+  li a:hover {
+    background-color:#1e2129;
+
+  }
+  .dash{
+    margin-top:30px !important;
+    color:black;
+  }
+  mat-chip{
+      border-radius:50%;
+     
+  }
+  mat-icon{
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+    min-width: 16px;
+    min-height: 16px;
+    line-height: 16px;
+    cursor:pointer;
+  }
+  .iconname{
+      flex: 1 1 auto;
+      margin-left:10px;
+  }
+
+  
+  .border{
+      border-radius: 50%;
+  }
+  .toolbar-separator {
+    border-right: 1px solid grey;
+    height: 62px;
+    
+  }
+  button{
+      height:auto;
+      width:auto;
+  }
+  .right{
+      min-width:50px;
+      
+  }
+  .container{
+      min-width:400px;
+      min-height:160px;
+      height:160px;
+      max-height:160px;
+  }
+  .example-card {
+    max-width: 200px;
+    min-height:200px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .card{
+    padding: 12px
+  }
+  .headertext{
+  color:white;
+  font-size:34px;
+  bottom:30px;
+  margin-left:30px;
+  font-family: Muli,'Helvetica Neue',Arial,sans-serif;
+  }
+  .maincontain{
+      font-size:60px; 
+      margin-left:20px; 
+  }
+  .cardtitlemanage{
+      padding-left:9px;
+  }
+  .cardcontain{
+      font-size:24px;
+  }
+  .middlecontain{
+      font-size:72px;
+  }
+  .example-card1{
+     height:auto;
+      width:200px;
+      margin-bottom:10px;
+      text-decoration-color: rgba(0,0,0,.54);
+      margin-left: 10px;
+  }
+  .cardtitlemanage1{
+      padding-left:35px;
+  }
+  .mat-card-header{
+   margin-bottom:20px;
+   color:rgba(0,0,0,.54);
+  }
+  .temp{
+  font-size:42px;
+  }
+  .celcious{
+      font-size:42px;
+  }
+  .spacemanage{
+      padding-top:20px;
+  }
+  .tabcard{
+      height:200px;
+      width:150px;
+      margin-left:20px;
+      margin-bottom:10px;
+      margin-top:10px;
+  }
+  .tabcardtitlemanage{
+      padding-left:35px;
+  }
+  .secondcard{
+      height:300px;
+      width:500px;
+      color:rebeccapurple;
+  }
+  .tabcard2{
+      height:300px;
+      width:300px;
+      margin-left:20px;
+      margin-top:10px;
+  }
+ .overflow-y {
+    overflow-y: scroll;
+ }
+ .headericon{
+     padding-right:10px;
+     color: rgba(0,0,0,.54)
+ }
+ li{
+     list-style: none;
+ }
+ .tabcardtitlemanage1{
+     padding-left:15px;
+ }
+ .tabcardtitlemanage2{
+    padding-left:30px;
+}
+.tabcardtitlemanage3{
+    padding-left:15px;
+}
+.material-icons{
+    cursor:pointer;
+}
+  
+  
+
+  
+
+
+ 
+
+ 
+
