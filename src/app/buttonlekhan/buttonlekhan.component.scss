@@ -1,0 +1,110 @@
+.second-container{
+    .first-card{
+       &:hover{
+        border: solid 1px #CCC;
+        -moz-box-shadow: 1px 1px 5px #999;
+        -webkit-box-shadow: 1px 1px 5px #999;
+            box-shadow: 1px 1px 5px #999;
+       }
+    }
+    .second-card{
+        &:hover{
+            border: solid 1px #CCC;
+                    -moz-box-shadow: 1px 1px 5px #999;
+                    -webkit-box-shadow: 1px 1px 5px #999;
+                        box-shadow: 1px 1px 5px #999;
+        }
+    }
+    .third-card{
+        &:hover{
+            border: solid 1px #CCC;
+                    -moz-box-shadow: 1px 1px 5px #999;
+                    -webkit-box-shadow: 1px 1px 5px #999;
+                        box-shadow: 1px 1px 5px #999;
+        }
+    }
+}
+.third-container{
+    height:150px !important;
+    .channel{
+        font-weight:bold;
+        font-size:20px;
+    }
+    .enter-email{
+        font-size:16px;
+    }
+   .email-text{
+        height:40px;
+       margin-top:30px;
+        border-radius: 25px;
+       span{
+           &.email{
+           display:flex;
+           color:#302F2D;
+        
+           }
+           &.subscribed{
+               color:white;
+               border-top-right-radius: 15px;
+               border-bottom-right-radius: 15px;
+           }
+       }
+    }
+}
+.fourth-container{
+    height:280px !important;
+    background:#302F2D;
+    .first-row{
+        margin-top:30px;
+        .content{
+            h1{
+                margin-bottom:30px;
+                font-size:14px;
+            }
+            p{
+               color:white;
+               margin-top:20px;
+               font-size:14px;
+               line-height:25px;
+            }
+        }
+    }
+    .second-row{
+        padding-left:40px !important;
+        h1{
+            margin-top:30px;
+            color:green;
+        }
+        .sub-topic{
+            color:white;
+            font-size:14px;
+        }
+    }
+    .third-row{
+        padding-left:180px !important;
+        h1{
+            margin-top:30px;
+            color:green;
+        }
+        .sub-topic{
+            color:white;
+            font-size:14px;
+        }
+    }
+    .fourth-row{
+       hr{
+           margin-top:30px;
+           width:180px;
+           border:none;
+           color:black;
+           background: black;
+           height:1px;
+       }
+       .social-media-icons{
+        font-size:25px;
+        i{
+           
+        }
+       }
+    }
+}

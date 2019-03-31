@@ -32,6 +32,9 @@ import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import { GridlayoutComponent } from './gridlayout/gridlayout.component';
 import { DataTableComponent } from './data-table/data-table.component';
 import { ResponsivelayoutComponent } from './responsivelayout/responsivelayout.component';
+import { LekhanComponent } from './lekhan/lekhan.component';
+import { MiddlelekhanComponent } from './middlelekhan/middlelekhan.component';
+import { ButtonlekhanComponent } from './buttonlekhan/buttonlekhan.component';
 const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
   suppressScrollX: true
 };
@@ -49,7 +52,10 @@ const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
     LeadbarComponent,
     GridlayoutComponent,
     DataTableComponent,
-    ResponsivelayoutComponent
+    ResponsivelayoutComponent,
+    LekhanComponent,
+    MiddlelekhanComponent,
+    ButtonlekhanComponent
   ],
   imports: [
     BrowserModule,

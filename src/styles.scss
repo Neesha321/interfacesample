@@ -28,6 +28,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	font-family: 'Muli';
 }
 ol, ul {
 	list-style: none;
@@ -65,4 +66,7 @@ body{
 height:23px !important;
 width:23px !important;
 margin-top:4px;
+}
+.mat-paginator-page-size {
+    margin-right: 650px !important;
 }

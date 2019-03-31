@@ -37,9 +37,9 @@
                         <div class="navbar" fxLayout="column">
                             <ul>
                                 <li> <a class="dash" fxLayoutAlign="start center">
-                                        <mat-icon> dashboard</mat-icon>
-                                        <span class="iconname">Dashboard</span>
-                                        <mat-icon>arrow_forward_ios</mat-icon>
+                                        <mat-icon style="color:white"> dashboard</mat-icon>
+                                        <span class="iconname" style="color:white">Dashboard</span>
+                                        <mat-icon style="color:white;">arrow_forward_ios</mat-icon>
                                     </a></li>
                                 <li class="hoverone"> <a fxLayoutAlign="start center">
                                         <mat-icon>calendar_today</mat-icon>
@@ -87,7 +87,7 @@
 
                             <button mat-icon-button [matMenuTriggerFor]="menu">
                                 <img src="../assets/imagess.jpg" height="30px" width="30px" class="border">
-                               <span style="font-display: 'Muli'; padding-left:5px;"> LAXMAN KHADKA</span>
+                               <span style="font-family:'Muli'; padding-left:5px;"> LAXMAN KHADKA</span>
                             </button>
                             <mat-menu #menu="matMenu" fxFlex>
 
@@ -138,7 +138,7 @@
                     <mat-divider></mat-divider>
                 </div>
 
-                <div>
+                <div style="padding: 10px;">
                     <!-- row contain -->
                     <div fxFlex="1 1 auto" style="background:#f5f5f5!important;">
                         <div style="background: whitesmoke" class="header" fxLayoutAlign="space-betweeen" fxLayout="column" style="padding:10px;">
@@ -160,11 +160,18 @@
                         </div>
                         <div class="managepadding" >
                             <app-leadbar></app-leadbar>
+                            <div class="spanarrow"> 
+                                    <button class="arrow"> 
+                                        <mat-icon class="iconarrow">keyboard_arrow_down</mat-icon>
+                                      </button>
+                                  </div>
+                                  <mat-divider></mat-divider>
                         </div>
+                   
                         
-                        <div class="managepaddingtwo">
+                        <div  class="tablemargin">
                             
-                            <app-data-table></app-data-table>
+                           <app-data-table></app-data-table>
 
                         </div>
 

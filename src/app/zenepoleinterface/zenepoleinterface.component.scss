@@ -126,8 +126,11 @@ li a {
   .dash{
     margin-top:30px !important;
     background:linear-gradient(to right,#32a4d9 0,#5451aa 100%);
+    
   }
- 
+ a{
+     color:white;
+ }
  
   //   Iconapplication
 //   sub-application
@@ -212,7 +215,8 @@ mat-icon{
   }
    //menubottom
   .header{
-   height:50px;
+   height:40px;
+   background:white !important;
 }
 .example-card {
   max-width: 200px;
@@ -436,7 +440,34 @@ label{
 .managepadding{
     padding:10px;
     border-radius:8px 8px 0 0;
+    padding-bottom:0px;
    
 }
+.iconarrow{
+    
+    height: 12px!important;
+    line-height: 10px!important;
+    color:white;
+    font-size: 18px!important;
+}
+.spanarrow{
+    text-align: center;
+    height: 15px;
+    background: #f1f1f1;
+
+}
+.arrow{
+    background: #424242;
+    height: 12px;
+    position: relative;
+    z-index: 5;  
+    border:none;
+}
+.tablemargin{
+    padding-right:10px;
+    padding-left:10px;
+    padding-bottom:10px;
+}
+
 
 

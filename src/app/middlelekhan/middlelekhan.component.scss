@@ -1,0 +1,59 @@
+.container{
+    .big-video{
+        button{
+            position:absolute;
+            left:30px;
+            margin-top:200px;
+            background:#228B22 !important;
+            i{
+                font-size:25px !important;
+            }
+  }
+    }
+    .small-video{
+        button{
+            position:absolute;
+            z-index:111;
+            right: 150px;
+            margin-top: 200px;
+            background:#228B22 !important;
+            i{
+                font-size:25px !important;
+            }
+        }
+        .card{
+            position: absolute;
+            top:750px;
+            left:600px;
+            background-color:white;
+            border: solid 1px #CCC;
+            box-shadow: 1px 1px 5px #999;
+            
+            &:hover{
+                border: solid 1px #CCC;
+                -moz-box-shadow: 1px 1px 5px #999;
+                -webkit-box-shadow: 1px 1px 5px #999;
+                    box-shadow: 1px 1px 5px #999;
+            }
+           
+            h1{
+            margin-top:20px;
+            margin-left:20px;
+            }
+           p{
+            margin-left:20px;
+            line-height: 25px;
+            font-size: 14px;
+           }
+        }
+        .bottom{
+            margin-left:20px;
+            span{
+                cursor: pointer;
+            }
+            .fas{
+                color:green !important;
+            }
+        }
+    }
+}
